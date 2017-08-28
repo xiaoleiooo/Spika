@@ -24,12 +24,12 @@ init.chatDatabaseUrl = "mongodb://localhost/test";
 init.dbCollectionPrefix = "spika_";
 init.uploadDir = '../../public/uploads/';
 init.sendAttendanceMessage = true;
-    
+
 var SpikaServer = new spika(app,io,init);
-    
+
 app.init = init;
 
-    
+
 server.listen(init.port, function(){
     console.log('Server listening on port ' + init.port + '!');
 });

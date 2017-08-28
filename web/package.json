@@ -48,7 +48,7 @@
     "gulp": "^3.9.0",
     "gulp-apidoc": "^0.1.5",
     "gulp-copy": "latest",
-    "gulp-jsdoc": "latest",
+    "gulp-jsdoc3": "latest",
     "gulp-jshint": "2.0.0",
     "gulp-plumber": "latest",
     "gulp-sass": "latest",

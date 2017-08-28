@@ -64,7 +64,10 @@ LoginHandler.prototype.attach = function(router){
 
     */
     router.post('/',function(request,response){
-                
+
+
+        console.log('loginHandler.js router.post ',request.body);
+
         LoginLogic.execute(request.body,function(result){
             
             self.successResponse(response,Const.responsecodeSucceed,{

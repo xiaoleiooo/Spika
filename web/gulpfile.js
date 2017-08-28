@@ -15,7 +15,7 @@ var browserify = require('browserify'),
     fs = require('fs-extra'),
     mocha = require('gulp-mocha'),
     exit = require('gulp-exit'),
-    jsdoc = require("gulp-jsdoc");
+    jsdoc = require("gulp-jsdoc3");
 
 var props = {
     entries: sourceFile,

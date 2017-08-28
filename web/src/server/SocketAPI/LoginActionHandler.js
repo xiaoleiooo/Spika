@@ -28,7 +28,9 @@ LoginActionHandler.prototype.attach = function(io,socket){
      *
      */
     socket.on('login', function(param){
-                    
+
+        console.log('LoginActionHandler');
+
         if(Utils.isEmpty(param.userID)){  
             socket.emit('socketerror', {code:Const.resCodeSocketLoginNoUserID});               
             return;
